@@ -77,10 +77,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp ESC             &kp SPACE         &none             &kp LS(TAB)  &kp TAB    &kp HOME   &kp PG_DN  &kp PG_UP   &kp END    &kp PSCRN             &trans
-&trans  &hm LEFT_GUI GRAVE  &kp LEFT_ALT      &kp LEFT_CONTROL  &kp LSHIFT   &none      &kp LEFT   &kp DOWN   &kp UP      &kp RIGHT  &kp SEMI              &trans
-&trans  &kp C_MUTE          &kp C_PLAY_PAUSE  &kp C_REWIND      &kp C_FF     &none      &kp MINUS  &kp EQUAL  &none       &none      &kp NON_US_BACKSLASH  &trans
-                                              &kp ENTER         &kp LSHIFT   &mo 1      &mo 2      &kp SPACE  &kp DELETE
+&trans  &kp ESC             &kp SPACE         &none             &kp LS(TAB)  &kp TAB            &kp HOME   &kp PG_DN  &kp PG_UP   &kp END    &kp PSCRN             &trans
+&trans  &hm LEFT_GUI GRAVE  &kp LEFT_ALT      &kp LEFT_CONTROL  &kp LSHIFT   &kp C_VOLUME_UP    &kp LEFT   &kp DOWN   &kp UP      &kp RIGHT  &kp SEMI              &trans
+&trans  &kp C_MUTE          &kp C_PLAY_PAUSE  &kp C_REWIND      &kp C_FF     &kp C_VOL_DN       &kp MINUS  &kp EQUAL  &none       &none      &kp NON_US_BACKSLASH  &trans
+                                              &kp ENTER         &kp LSHIFT   &mo 1              &mo 2      &kp SPACE  &kp DELETE
             >;
         };
 
