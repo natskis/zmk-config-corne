@@ -1,3 +1,3 @@
-#### Nate's ZMK Corne Wireless 5x3 build.
+#### Nate's ZMK Corne Wired 5x3 build.
 
-This is now working again. Need to muck around with power options as well as display options. 
+This is my Wired 5X3 Corne build
